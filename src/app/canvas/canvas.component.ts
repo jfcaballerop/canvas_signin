@@ -30,6 +30,7 @@ export class CanvasComponent implements AfterViewInit {
     this.cx.lineCap = 'round';
     this.cx.strokeStyle = '#000';
 
+
     this.captureEvents(this.canvasEl);
   }
 
